@@ -20,6 +20,16 @@
 .features-list {
   justify-content: center;
   grid-gap: 30px;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .features-list__item {
