@@ -100,10 +100,11 @@
 .footer-list__item {
   width: 44px;
   height: 44px;
+  margin-right: 10px;
 }
 
 .footer-list__link {
-  display: block;
+  display: flex;
 
   width: 44px;
   height: 44px;
